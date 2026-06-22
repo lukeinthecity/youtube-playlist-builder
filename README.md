@@ -26,9 +26,6 @@ youtube-playlist-builder/
 ├── gui.py              # Tkinter-based Desktop UI with Custom Filter Controls
 ├── .gitignore          # Firewall configuration excluding local keys & caches
 ├── README.md           # Documentation
-│
-├── solarpunk.txt       # Example plain-text playlist target
-│
 ├── client_secret.json  # USER PROVIDED: Google Cloud Console OAuth Key
 ├── token.json          # AUTOMATIC: Secured OAuth Session Persistence Token
 └── cache.json          # AUTOMATIC: Persistent Track-to-Video API Mapping Cache

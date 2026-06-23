@@ -66,10 +66,11 @@ pip install tkinterdnd2
 
 Because this utility is entirely open-source, you must supply your own secure credentials from the Google Cloud Console. Follow these steps to generate your keys:
 
-1. **Create Project:** Go to [Google Cloud Console](https://console.cloud.google.com/), create a new project, and enable the **YouTube Data API v3**.
-2. **Configure Consent:** Navigate to **APIs & Services > OAuth consent screen**. Create an **Internal** app, add your email, and save.
-3. **Generate Keys:** Go to **Credentials > + Create Credentials > OAuth client ID**. Select **Desktop app**, create, and **Download JSON**.
-4. **Link to App:** Move the downloaded file into your root folder and rename it exactly to `client_secret.json`.
+1. **Create Project:** Go to [Google Cloud Console](https://console.cloud.google.com/) and create a new project**.
+2. **Configure Consent:** Navigate to **APIs & Services > OAuth consent screen**.  Create an **External** app, add your email to **Test users**, and save**.
+4. **Generate Keys:** Go to **Credentials > + Create Credentials > OAuth client ID**. Select **Desktop app**, create, and **Download JSON**.
+5.  **Configure YouTube API** Click on **API Library**. Search for and enable the **YouTube Data API v3**.
+6. **Link to App:** Move the downloaded file into your root folder and rename it exactly to `client_secret.json`.
 
 ---
 
